@@ -12,9 +12,14 @@ This project parses chess games and extracts complex features (such as Centipawn
 ## ⚙️ Environment Setup & Installation
 To run this project locally, you need to set up the appropriate Python environment. Run the following commands in your terminal:
 
-bash
+```bash
+# 1. Create a new conda environment with Python 3.12
 conda create -n venv python=3.12
+
+# 2. Activate the environment
 conda activate venv
+
+# 3. Install the required dependencies
 pip install -r requirements
 
 
